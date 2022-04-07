@@ -84,9 +84,11 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.875;
+    line-height: 30px;
+    letter-spacing: 1.88;
     background-color: var(--accent-color);
     color: #ffffff;
+    cursor: pointer;
 }
 /*-----------------------features-------------------*/
 .features-title{
@@ -98,7 +100,6 @@ body {
     color: var(--title-color);
 }
 .feature-text{
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 1.71;
@@ -126,7 +127,6 @@ body {
     color:var(--title-color)
 }
 .team-img-text{
-    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -172,17 +172,35 @@ body {
     letter-spacing: 1.71;
     color: rgba(255, 255, 255, 0.6);
 }
+.footer-mail:hover,
+.footer-tel:hover,
+.footer-mail:focus,
+.footer-tel:focus{
+    color: var(--accent-color);
+}
 
-
+/*--------------------potfolio----------------------------*/
 /*кнопки портфолио*/
 .button {
     color: var(--title-color);
     background-color: #F5F4FA;
     font-family: inherit;
+    cursor: pointer;
 }
-
 .button:hover,
 .button:focus {
     color: #fff;
     background-color: var(--accent-color);
+}
+.examples-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 2;
+    color: var(--title-color);
+}
+.examples-text{
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 1.88;
 }

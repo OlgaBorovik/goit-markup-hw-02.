@@ -97,11 +97,12 @@ body {
     background-color: var(--accent-color);
     color: #ffffff;
     cursor: pointer;
-}
-.hero-btn:hover
-.hero-btn:focus{
-    background-color: #188CE8;;
-}
+   }
+.hero-btn:hover,
+.hero-btn:focus {
+    color: #fff;
+    background-color: #188CE8;}
+
 /*-----------------------features-------------------*/
 .features-title{
     font-weight: 700;

@@ -162,7 +162,9 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;}
+    letter-spacing: 0.03em;
+    text-decoration: none
+}
 
 .footer-logo-secondpart{
     color: var(--footer-color);
@@ -181,6 +183,7 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
 }
 .footer-tel{
@@ -189,6 +192,7 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
 }
 .footer-mail:hover,
